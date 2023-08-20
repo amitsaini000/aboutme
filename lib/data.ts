@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import vdxtsudio from "@/public/vdxtsudio.jpeg";
+import summitapp from "@/public/summitapp.jpeg";
+import expo9 from "@/public/expo9.jpeg";
 
 export const links = [
   {
@@ -35,52 +35,55 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Grapes Digital",
+    location: "Delhi, INDIA",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I started my career with grapes software, where I developed lots of ecommerce websites.I have used Java, JSP,Servlet, Ajax, jQuery, JavaScript ,MY SQL",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "May 2008 - Feb 2010",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "MapMy India, Delhi, INDIA",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a front-end developer for 8 months here. I also upskilled to the full stack.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Feb-2010 - Dec-2010",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "VDX.TV, Noida, INDIA",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a full-stack developer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "Dec 2010 - Present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "VDX Studio development of Next.js",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "I worked as a full-stack developer on this project for 5 years.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+    imageUrl: vdxtsudio,
   },
   {
-    title: "rmtDev",
+    title: "VDX Summit App",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      `Developed React Native mobile app from scratch, optimizing performance. Achieved
+500K+ downloads in 2 months, securing $1M series A funding. Robust architecture
+and efficient state management for seamless user experience`,
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    imageUrl: summitapp,
   },
   {
-    title: "Word Analytics",
+    title: "Expo9 UI",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      `Developed internal design system consisting of highly reusable UI componentswith
+high visual consistency across Web and mobileplatforms`,
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: expo9,
   },
 ] as const;
 
@@ -101,7 +104,5 @@ export const skillsData = [
   "Apollo",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
 ] as const;
